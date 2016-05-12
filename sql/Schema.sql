@@ -1,0 +1,9 @@
+USE `plm-system`;
+
+DROP TABLE IF EXISTS `User`;
+CREATE TABLE `User` (
+    `id` BIGINT PRIMARY KEY AUTO_INCREMENT,
+    `name` VARCHAR(64) NOT NULL,
+    `lastName` VARCHAR(64) NOT NULL,
+    `role` VARCHAR(32) NOT NULL
+);
